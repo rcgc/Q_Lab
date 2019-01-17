@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+
+    <title>Ejercicio alcanos</title>
+    <link rel="icon" type="image/png" href="imagenes/logo/logo_tab.png">
+    <script src = "js/quiz.js"></script>
+
+</head>
+
+<body>
+  <nav>
+        <div class="nav-wrapper teal accent-2">
+          <a href="index.html" class="brand-logo">  <img class="responsive-img" src="imagenes/logo/5.png" height="200" width="200"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html"><span class="blue-text text-darken-2">Inicio</span></a></li>
+              <li><a href="reglas.html"><span class="blue-text text-darken-2">Reglas IUPAC</span></a></li>
+              <li><a href="ejercicios.html"><span class="blue-text text-darken-2">Ejercicios</span></a></li>
+              <li><a href="material.html"><span class="blue-text text-darken-2">Material de Apoyo</span></a></li>
+              <li><a href="acerca.html"><span class="blue-text text-darken-2">Acerca</span></a></li>
+          </ul>
+      </div>
+    </nav>
+
+	<div class="row">
+    <div class="container">
+        
+        <form action="#" id="quiz" name="quiz">
+          <p class="questions">
+            <br>
+            <h5>Alcanos</h5>
+            <br>
+            
+            <blockquote>Nombra el siguiente compuesto de acuerdo a la IUPAC.</blockquote>
+            <div class="row">
+            <div class="col s4">
+                <div class="card">
+                  <div class="card-image">
+
+                    <img src="imagenes/ejercicios/1-fluoropropano.PNG">
+                  </div>
+                </div>  
+              </div>
+            </div>
+
+            <label>
+              <input class="with-gap" name="group1" type="radio" value = "Option 1"/>
+              <span>2-fluoropropano</span>
+            </label>
+          </p>
+          
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group1" type="radio" value = "Correct"/>
+              <span>1-fluoropropano</span>
+            </label>
+          </p>
+
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group1" type="radio" value = "Option 3"/>
+              <span>fluoropropano</span>
+            </label>
+          </p>
+            
+          <p class="questions">
+            <br>
+
+
+            <blockquote>Nombra el siguiente compuesto de acuerdo a la IUPAC.</blockquote>
+            <div class="row">
+            <div class="col s4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imagenes/ejercicios/2,2-dimetil_4-etil_hexano.PNG">
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <label>
+              <input class="with-gap" name="group2" type="radio" value = "Option 1"/>
+              <span>2-dimetil 4-etil hexano</span>
+            </label>
+          </p>
+          
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group2" type="radio" value = "Correct"/>
+              <span>2,2-dimetil 4-etil hexano</span>
+            </label>
+          </p>
+
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group2" type="radio" value = "Option 3"/>
+              <span>2,2-dimetil 2-etil hexano</span>
+            </label>
+          </p>
+
+
+          <p class="questions">
+            <br>
+
+
+            <blockquote>Nombra el siguiente compuesto de acuerdo a la IUPAC.</blockquote>
+            <div class="row">
+            <div class="col s4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="imagenes/ejercicios/1-metil_ciclohexano.PNG">
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <label>
+              <input class="with-gap" name="group3" type="radio" value = "Option 1"/>
+              <span>ciclohexanol</span>
+            </label>
+          </p>
+          
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group3" type="radio" value = "Option 2"/>
+              <span>metil hexano</span>
+            </label>
+          </p>
+
+          <p class="questions">
+            <label>
+              <input class="with-gap" name="group3" type="radio" value = "Correct"/>
+              <span>1-metil ciclohexano</span>
+            </label>
+          </p>
+
+
+          <br>
+          <br>
+
+
+            <button class="btn waves-effect waves-light" type="submit" name="action" onclick="check();">Calificar<i class="material-icons right"></i></button>
+
+        </form>
+    </div>
+
+  </div>
+
+ 
+
+	 <footer class="page-footer blue accent-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Q-LAB</h5>
+                <p class="grey-text text-lighten-4">Nuestra misión es proporcionar una herramienta digital
+			que permita reforzar temas de nomenclatura química con contenidos
+			y ejercicios de calidad, para cualquier persona que le sea útil.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Enlaces de apoyo</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="http://nomenclature101.com/nom/en/index.php" target="_blank">Nomenclature 101</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://iupac.org/" target="_blank">IUPAC</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.khanacademy.org/science/organic-chemistry" target="_blank">Khan Academy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="acerca.html">Acerca de</a>
+            </div>
+          </div>
+        </footer>
+        </div>
+        
+        <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          // Init Carousel
+          $('.carousel').carousel();
+
+          // Init Carousel Slider
+          $('.carousel.carousel-slider').carousel({fullWidth:true});
+
+          // Fire off toast
+          //Materialize.toast('Hello World', 3000);
+
+          // Init Slider
+          $('.slider').slider();
+
+          // Init Modal
+          $('.modal').modal();
+
+          // Init Sidenav
+          $('.button-collapse').sideNav();
+        });
+      </script>
+</body>
+</html>
